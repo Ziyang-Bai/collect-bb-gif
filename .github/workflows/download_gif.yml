@@ -1,8 +1,7 @@
 name: Download GIFs
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # 每小时运行一次，修改为你需要的频率
+  workflow_dispatch:
 
 jobs:
   download:
